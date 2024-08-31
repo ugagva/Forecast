@@ -165,7 +165,7 @@ onMounted(getWeather)
     font-weight: 700
   &-message
     color: #ef060e
-    font-size: 14px
+    font-size: 16px
     padding-top: 10px
 
   </style>
