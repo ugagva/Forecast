@@ -27,7 +27,7 @@ const today= new Date().toLocaleDateString('en-EN', {weekday: 'short',  day: 'nu
     </div>
     <div class="city text-block">
     {{props.weatherInfo.name}},
-     {props.weatherInfo.sys?.country}}
+      {{props.weatherInfo.description.country}}
     </div>
     <div class="date text-block">
       {{today}}
