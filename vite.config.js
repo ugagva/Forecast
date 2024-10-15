@@ -10,7 +10,7 @@ export default defineConfig({
   plugins:[
     vue(),
   ],
-  publicPath: `/forecast/`,
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
